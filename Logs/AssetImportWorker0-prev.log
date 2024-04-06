@@ -15,7 +15,7 @@ C:/Ragu Legacy
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54273
+50110
 Successfully changed project path to: C:/Ragu Legacy
 C:/Ragu Legacy
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Ragu Legacy
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4112] Host "[IP] 26.194.170.53 [Port] 0 [Flags] 2 [Guid] 329740605 [EditorId] 329740605 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QDDH4IE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [138772] Host "[IP] 26.194.170.53 [Port] 0 [Flags] 2 [Guid] 2127622625 [EditorId] 2127622625 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QDDH4IE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4112] Host "[IP] 26.194.170.53 [Port] 0 [Flags] 2 [Guid] 329740605 [EditorId] 329740605 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QDDH4IE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [138772] Host "[IP] 26.194.170.53 [Port] 0 [Flags] 2 [Guid] 2127622625 [EditorId] 2127622625 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QDDH4IE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 11.13 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 9.24 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path D:/UnityEditor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'D:/UnityEditor/2022.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UnityEditor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/UnityEditor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UnityEditor/2022.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/UnityEditor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007024 seconds.
-- Loaded All Assemblies, in  0.547 seconds
+Registered in 0.004413 seconds.
+- Loaded All Assemblies, in  0.419 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.426 seconds
-Domain Reload Profiling: 974ms
-	BeginReloadAssembly (133ms)
+- Finished resetting the current domain, in  0.481 seconds
+Domain Reload Profiling: 901ms
+	BeginReloadAssembly (106ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (53ms)
+	RebuildCommonClasses (39ms)
 	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (84ms)
-	LoadAllAssembliesAndSetupDomain (259ms)
-		LoadAssemblies (134ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (180ms)
+		LoadAssemblies (105ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (254ms)
-			TypeCache.Refresh (253ms)
-				TypeCache.ScanAssembly (233ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (427ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (157ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (482ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (340ms)
+		SetupLoadedEditorAssemblies (389ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (242ms)
-			ProcessInitializeOnLoadMethodAttributes (77ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 974ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.800 seconds
-Refreshing native plugins compatible for Editor in 3.33 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.079 seconds
+Refreshing native plugins compatible for Editor in 5.64 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.994 seconds
-Domain Reload Profiling: 1793ms
-	BeginReloadAssembly (192ms)
+- Finished resetting the current domain, in  1.045 seconds
+Domain Reload Profiling: 2123ms
+	BeginReloadAssembly (228ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (489ms)
-		LoadAssemblies (367ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (718ms)
+		LoadAssemblies (442ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (229ms)
-			TypeCache.Refresh (193ms)
-				TypeCache.ScanAssembly (176ms)
-			ScanForSourceGeneratedMonoScriptInfo (29ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (995ms)
+		AnalyzeDomain (413ms)
+			TypeCache.Refresh (371ms)
+				TypeCache.ScanAssembly (345ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1046ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (762ms)
+		SetupLoadedEditorAssemblies (726ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (81ms)
-			ProcessInitializeOnLoadAttributes (593ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (530ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 5.04 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4053 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (171.7 KB). Loaded Objects now: 4512.
+Unloading 68 unused Assets / (171.3 KB). Loaded Objects now: 4512.
 Memory consumption went from 144.7 MB to 144.5 MB.
-Total: 4.704500 ms (FindLiveObjects: 0.780200 ms CreateObjectMapping: 0.425400 ms MarkObjects: 3.256000 ms  DeleteObjects: 0.241600 ms)
+Total: 4.212300 ms (FindLiveObjects: 0.344500 ms CreateObjectMapping: 0.337000 ms MarkObjects: 3.227300 ms  DeleteObjects: 0.302700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,121 +183,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1777.552574 seconds.
-  path: Assets/Sprites/TexKLETKI1.png
-  artifactKey: Guid(6082201b2e291b04b89219873305c876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TexKLETKI1.png using Guid(6082201b2e291b04b89219873305c876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d4262c3867406a69a30e2957d1496d') in 0.134902 seconds
+  Time since last request: 11583.175569 seconds.
+  path: Assets/Sprites/SpriteSheet.png
+  artifactKey: Guid(edd3d5d6928f4a44580e69ce226c9373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteSheet.png using Guid(edd3d5d6928f4a44580e69ce226c9373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777ab964934f55261299bbb099210921') in 0.128966 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 51.790477 seconds.
-  path: Assets/Sprites/Scavengers_SpriteSheet.png
-  artifactKey: Guid(fbe1e7b94bb1a4a099d5bcb15a00141c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Scavengers_SpriteSheet.png using Guid(fbe1e7b94bb1a4a099d5bcb15a00141c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd783ad3a8e5f89a8c6207d27f22741') in 0.123967 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 58
-========================================================================
-Received Import Request.
-  Time since last request: 32.383505 seconds.
-  path: Assets/Sprites/TexKLETKI1.png
-  artifactKey: Guid(6082201b2e291b04b89219873305c876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TexKLETKI1.png using Guid(6082201b2e291b04b89219873305c876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5612b5208454933401fa78813ad069') in 0.012113 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 89.408293 seconds.
-  path: Assets/Sprites/TexKLETKI1 (1).png
-  artifactKey: Guid(803782923ff485445bfd14e0f1c9256d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TexKLETKI1 (1).png using Guid(803782923ff485445bfd14e0f1c9256d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c5dbaa2de18fb53d6be9a69c8f3b06') in 0.009683 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 130.194788 seconds.
-  path: Assets/Sprites/TexKLETKI1 (1).png
-  artifactKey: Guid(803782923ff485445bfd14e0f1c9256d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TexKLETKI1 (1).png using Guid(803782923ff485445bfd14e0f1c9256d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77236d28cf054badc06c51f078210782') in 0.010810 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 38.860806 seconds.
-  path: Assets/Sprites/TexKLETKI1 (1) 1.png
-  artifactKey: Guid(74cc2c8e6e858c94fb92f3261b19c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TexKLETKI1 (1) 1.png using Guid(74cc2c8e6e858c94fb92f3261b19c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df179b83b6256029a24766b267858e4') in 0.009947 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 22.011026 seconds.
-  path: Assets/Sprites/TexKLETKI1 (1) 1.png
-  artifactKey: Guid(74cc2c8e6e858c94fb92f3261b19c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TexKLETKI1 (1) 1.png using Guid(74cc2c8e6e858c94fb92f3261b19c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcd369bac398cb2bd8a7931e08a8ec9') in 0.009063 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 21.932122 seconds.
-  path: Assets/Sprites/TexKLETKI1 (1) 1.png
-  artifactKey: Guid(74cc2c8e6e858c94fb92f3261b19c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TexKLETKI1 (1) 1.png using Guid(74cc2c8e6e858c94fb92f3261b19c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79c9f7efd332016ffabfb1f7c4f0b6b') in 0.008822 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 19.044002 seconds.
-  path: Assets/Sprites/TexKLETKI1 (1) 1.png
-  artifactKey: Guid(74cc2c8e6e858c94fb92f3261b19c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TexKLETKI1 (1) 1.png using Guid(74cc2c8e6e858c94fb92f3261b19c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5644ee5ffa709fbb4b8d4937567f229f') in 0.011899 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 14.642809 seconds.
-  path: Assets/Sprites/TexKLETKI1 (1) 1.png
-  artifactKey: Guid(74cc2c8e6e858c94fb92f3261b19c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TexKLETKI1 (1) 1.png using Guid(74cc2c8e6e858c94fb92f3261b19c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e05e82e3f650fe37b448ecd67ba613') in 0.009995 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 8.582771 seconds.
-  path: Assets/Sprites/TexKLETKI1 (1) 1.png
-  artifactKey: Guid(74cc2c8e6e858c94fb92f3261b19c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TexKLETKI1 (1) 1.png using Guid(74cc2c8e6e858c94fb92f3261b19c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9698579b61d8a5714c20c92efb4e8ce') in 0.007898 seconds
+  Time since last request: 6.381898 seconds.
+  path: Assets/Sprites/SpriteSheet.png
+  artifactKey: Guid(edd3d5d6928f4a44580e69ce226c9373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteSheet.png using Guid(edd3d5d6928f4a44580e69ce226c9373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a450e1ce0d6f3dcfd725a4d2685f6d13') in 0.011184 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 34.041657 seconds.
-  path: Assets/Sprites/TexKLETKI1 (1) 1.png
-  artifactKey: Guid(74cc2c8e6e858c94fb92f3261b19c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TexKLETKI1 (1) 1.png using Guid(74cc2c8e6e858c94fb92f3261b19c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f78db86eebd6a974b8194f5d7356ea') in 0.007633 seconds
+  Time since last request: 7.662227 seconds.
+  path: Assets/Sprites/SpriteSheet.png
+  artifactKey: Guid(edd3d5d6928f4a44580e69ce226c9373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteSheet.png using Guid(edd3d5d6928f4a44580e69ce226c9373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded51f971e5c3fb3f2368b8250d9e9e1') in 0.010460 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 52.638245 seconds.
-  path: Assets/Sprites/TexKLETKI1 (1) 1.png
-  artifactKey: Guid(74cc2c8e6e858c94fb92f3261b19c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TexKLETKI1 (1) 1.png using Guid(74cc2c8e6e858c94fb92f3261b19c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274ef1e85be17200776c0ae0430cdcf8') in 0.007373 seconds
+  Time since last request: 6.751638 seconds.
+  path: Assets/Sprites/SpriteSheet.png
+  artifactKey: Guid(edd3d5d6928f4a44580e69ce226c9373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteSheet.png using Guid(edd3d5d6928f4a44580e69ce226c9373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2387c5084e899a3ae7937d8d4423fe4') in 0.012105 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 11.564023 seconds.
-  path: Assets/_Complete-Game/Prefabs/Exit.prefab
-  artifactKey: Guid(cb0f3020bafec423aa31d0e491c4b811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Complete-Game/Prefabs/Exit.prefab using Guid(cb0f3020bafec423aa31d0e491c4b811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24059e0f3391f4f7717119ae85d6e8f') in 0.033251 seconds
+  Time since last request: 4.776348 seconds.
+  path: Assets/Sprites/SpriteSheet.png
+  artifactKey: Guid(edd3d5d6928f4a44580e69ce226c9373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteSheet.png using Guid(edd3d5d6928f4a44580e69ce226c9373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf42e50a9a65fd40e06fda2f037fde15') in 0.011778 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 110.317477 seconds.
-  path: Assets/Sprites/TexKLETKI1 (1) 1.png
-  artifactKey: Guid(74cc2c8e6e858c94fb92f3261b19c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TexKLETKI1 (1) 1.png using Guid(74cc2c8e6e858c94fb92f3261b19c3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fa6ec66df5aff64962860f2bc0a6df') in 0.115933 seconds
+  Time since last request: 7.305538 seconds.
+  path: Assets/Sprites/SpriteSheet.png
+  artifactKey: Guid(edd3d5d6928f4a44580e69ce226c9373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteSheet.png using Guid(edd3d5d6928f4a44580e69ce226c9373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ebd4b00079b282b8666367d7402eb1') in 0.009031 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 52
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 133.517020 seconds.
+  path: Assets/Sprites/SpriteSheet.png
+  artifactKey: Guid(edd3d5d6928f4a44580e69ce226c9373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/SpriteSheet.png using Guid(edd3d5d6928f4a44580e69ce226c9373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a392fc8c25f47a0aa26be26f7a51dfe') in 0.141695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
