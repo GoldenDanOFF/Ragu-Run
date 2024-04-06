@@ -1,0 +1,1227 @@
+fileFormatVersion: 2
+guid: 74cc2c8e6e858c94fb92f3261b19c3b8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_0
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 5072
+        width: 178
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be99d1bdbe9b074196bdfab8703448e
+      internalID: 1747481355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_1
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 4594
+        width: 497
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf5a81e61b47014380cb9d1f7c86b4a
+      internalID: 641989537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_2
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 5128
+        width: 94
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7ce1a172bc135499e51b4f4b63bd3b
+      internalID: -644676565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_3
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 5128
+        width: 93
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604d16fdfe7965e4284d80bff4fcaca4
+      internalID: -1187490644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_4
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 5128
+        width: 66
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b49f996aa672a45b7c4f79ccfec49d
+      internalID: 1042811201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_5
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 5100
+        width: 121
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c3b4916e271bf4cbc12391ba8b5520
+      internalID: -681029292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_6
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 5091
+        width: 103
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38e66d093060d3488f0c23dd84725fd
+      internalID: -1995305723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_7
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 5091
+        width: 103
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35116e4d6dd94eb4db200c5b8f9aa794
+      internalID: -1276661912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_8
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 5091
+        width: 94
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1914353e06d07438b33040c3977f3b
+      internalID: 1452272436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_9
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 5091
+        width: 104
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434123ccedae4e14b993344d08db2534
+      internalID: -2003753579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_10
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 5091
+        width: 93
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3c1b70c567ce142bb608dafe24156a
+      internalID: 1117844981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_11
+      rect:
+        serializedVersion: 2
+        x: 2447
+        y: 5091
+        width: 84
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac708ec56f0fd54a89c8ddae13ee59f
+      internalID: 1861635139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_12
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 5091
+        width: 103
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903adb9c091da12408158b0b8be5f56b
+      internalID: -1028222571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_13
+      rect:
+        serializedVersion: 2
+        x: 2766
+        y: 5091
+        width: 84
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316be6932af92224fbac5b41f4425469
+      internalID: -1684737703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_14
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 4913
+        width: 94
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba384d9737ae5a46a652eb516c27971
+      internalID: -39917137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_15
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 3478
+        width: 56
+        height: 1603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1317b134d4f507846a0d4c80c1195efb
+      internalID: -1831066302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_16
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 4969
+        width: 94
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d55928195988348acbcd6dd84f2aff
+      internalID: 1733297602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_17
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 4959
+        width: 94
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d976576f00dbb4189599025dd17800
+      internalID: -991075443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_18
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 4959
+        width: 93
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2008d5a1dd11a448bc761dfb3d0b786
+      internalID: -842547525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_19
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 4594
+        width: 103
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2c2617c553a974da779f645c5b6922
+      internalID: -759508086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_20
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 4800
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b8c22c328df9f43be8272552bd03d5
+      internalID: 1856055125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_21
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 4791
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fc140b6d9d8274ea3ccf7de58c41ec
+      internalID: 248993430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_22
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 4791
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc455bc4e4cc9cb45be607512714d7f4
+      internalID: -270700962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_23
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 4594
+        width: 178
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a7eeaa5bcaaa143b8862df0cc764c7
+      internalID: -125510379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_24
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 4809
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c3a4c4160600e45bbc02a27acf3284
+      internalID: -711497310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_25
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 4809
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2c5764101cd554d8c5adaf841c216a
+      internalID: 2086741394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_26
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 4809
+        width: 47
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da9584d80af29144a0ae0fbf878be56
+      internalID: -2058537438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_27
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 4809
+        width: 47
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cffa5dfc10a89747a1fcb4a289385ce
+      internalID: 1327261089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_28
+      rect:
+        serializedVersion: 2
+        x: 2606
+        y: 4809
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b044cd305ba704d42ab8ac48ed88ae99
+      internalID: 1715204686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_29
+      rect:
+        serializedVersion: 2
+        x: 2775
+        y: 4809
+        width: 56
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7489a5ac4529545907b511ad7d7c55
+      internalID: -1528824402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_30
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 4809
+        width: 66
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f038ff94a353a3c40ab01a104614b9ed
+      internalID: -433842779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_31
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 4809
+        width: 57
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bfbb18a825398499c61b638a209519
+      internalID: 560675991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_32
+      rect:
+        serializedVersion: 2
+        x: 3253
+        y: 4809
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21a778214e93b241828e8f69d8dd250
+      internalID: 904396951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_33
+      rect:
+        serializedVersion: 2
+        x: 3413
+        y: 4809
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc7e88dcea9ead43b1b86682e777ec9
+      internalID: -3373424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_34
+      rect:
+        serializedVersion: 2
+        x: 3572
+        y: 4809
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39273ba072b125c4a841adc029005c7e
+      internalID: -294277952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_35
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 4631
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726a2ebe933911a41a57063f8482d430
+      internalID: -2122906761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_36
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 4641
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3aecf9adf82e04bb4e45438e7fe903
+      internalID: 45600878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_37
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 4641
+        width: 66
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f0613f3d376c74682fe74be4fd1324
+      internalID: -127183693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_38
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 4603
+        width: 159
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97753788558f22e40ad4bd0846d67c0f
+      internalID: 1823082292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_39
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 4453
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8faa7ed817df26f478097a5431834a3e
+      internalID: 1468414393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_40
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 4481
+        width: 94
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc536790d718c24aaab643ed231d2d5
+      internalID: 469191889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_41
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 4481
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff383ac60deebe429676c1900cd31fd
+      internalID: 2085149261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_42
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 4481
+        width: 141
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b219e8af4bbab14bbaca42f9f571483
+      internalID: 113766404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_43
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 4294
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d33badae414f444b54779f6dc0e409
+      internalID: -1885247527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_44
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 4313
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a289af996672bd944a08d4ecafd85cc0
+      internalID: 1555867754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_45
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 4331
+        width: 103
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e9e841424e9aa48b822c9b7fdbae70
+      internalID: 1868373456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_46
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 4331
+        width: 94
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb2c21255e47fb4285697c3b1bf84fa
+      internalID: 1044970711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_47
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 4134
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee7d15668ec8d148a4f4bd87e6322aa
+      internalID: 2137181373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_48
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 4134
+        width: 56
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ca31a250b12b44fa5e976fa7be7a0d
+      internalID: -794372948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TexKLETKI1 (1) 1_49
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 3975
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fde13732060a94fb9f9b6fe5df5e32
+      internalID: 864547206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TexKLETKI1 (1) 1_0: 1747481355
+      TexKLETKI1 (1) 1_1: 641989537
+      TexKLETKI1 (1) 1_10: 1117844981
+      TexKLETKI1 (1) 1_11: 1861635139
+      TexKLETKI1 (1) 1_12: -1028222571
+      TexKLETKI1 (1) 1_13: -1684737703
+      TexKLETKI1 (1) 1_14: -39917137
+      TexKLETKI1 (1) 1_15: -1831066302
+      TexKLETKI1 (1) 1_16: 1733297602
+      TexKLETKI1 (1) 1_17: -991075443
+      TexKLETKI1 (1) 1_18: -842547525
+      TexKLETKI1 (1) 1_19: -759508086
+      TexKLETKI1 (1) 1_2: -644676565
+      TexKLETKI1 (1) 1_20: 1856055125
+      TexKLETKI1 (1) 1_21: 248993430
+      TexKLETKI1 (1) 1_22: -270700962
+      TexKLETKI1 (1) 1_23: -125510379
+      TexKLETKI1 (1) 1_24: -711497310
+      TexKLETKI1 (1) 1_25: 2086741394
+      TexKLETKI1 (1) 1_26: -2058537438
+      TexKLETKI1 (1) 1_27: 1327261089
+      TexKLETKI1 (1) 1_28: 1715204686
+      TexKLETKI1 (1) 1_29: -1528824402
+      TexKLETKI1 (1) 1_3: -1187490644
+      TexKLETKI1 (1) 1_30: -433842779
+      TexKLETKI1 (1) 1_31: 560675991
+      TexKLETKI1 (1) 1_32: 904396951
+      TexKLETKI1 (1) 1_33: -3373424
+      TexKLETKI1 (1) 1_34: -294277952
+      TexKLETKI1 (1) 1_35: -2122906761
+      TexKLETKI1 (1) 1_36: 45600878
+      TexKLETKI1 (1) 1_37: -127183693
+      TexKLETKI1 (1) 1_38: 1823082292
+      TexKLETKI1 (1) 1_39: 1468414393
+      TexKLETKI1 (1) 1_4: 1042811201
+      TexKLETKI1 (1) 1_40: 469191889
+      TexKLETKI1 (1) 1_41: 2085149261
+      TexKLETKI1 (1) 1_42: 113766404
+      TexKLETKI1 (1) 1_43: -1885247527
+      TexKLETKI1 (1) 1_44: 1555867754
+      TexKLETKI1 (1) 1_45: 1868373456
+      TexKLETKI1 (1) 1_46: 1044970711
+      TexKLETKI1 (1) 1_47: 2137181373
+      TexKLETKI1 (1) 1_48: -794372948
+      TexKLETKI1 (1) 1_49: 864547206
+      TexKLETKI1 (1) 1_5: -681029292
+      TexKLETKI1 (1) 1_6: -1995305723
+      TexKLETKI1 (1) 1_7: -1276661912
+      TexKLETKI1 (1) 1_8: 1452272436
+      TexKLETKI1 (1) 1_9: -2003753579
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
