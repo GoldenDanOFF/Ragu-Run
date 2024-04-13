@@ -8,3 +8,7 @@
 /.vscode
 /UserSettings
 *.rar
+.editorconfig
+*.csproj
+/ProjectSettings
+*.sln
