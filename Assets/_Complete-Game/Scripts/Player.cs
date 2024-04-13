@@ -12,6 +12,9 @@ namespace Completed
 		public int pointsPerFood = 10;				//Number of points to add to player food points when picking up a food object.
 		public int pointsPerSoda = 20;				//Number of points to add to player food points when picking up a soda object.
 		public int wallDamage = 1;					//How much damage a player does to a wall when chopping it.
+		public int maxHealth = 100;
+		public int currentHealth;
+		public HealthBar healthBar;
 		public Text foodText;						//UI Text to display current player food total.
 		public AudioClip moveSound1;				//1 of 2 Audio clips to play when player moves.
 		public AudioClip moveSound2;				//2 of 2 Audio clips to play when player moves.
@@ -28,6 +31,7 @@ namespace Completed
 #endif
 		
 		
+		
 		//Start overrides the Start function of MovingObject
 		protected override void Start ()
 		{
@@ -36,14 +40,16 @@ namespace Completed
 			
 			//Get the current food point total stored in GameManager.instance between levels.
 			food = GameManager.instance.playerFoodPoints;
-			
+
 			//Set the foodText to reflect the current player food total.
-			foodText.text = "Food: " + food;
+			foodText.text = "Health: " + food;
 			
 			//Call the Start function of the MovingObject base class.
 			base.Start ();
+			currentHealth = maxHealth;
+			healthBar.SetMaxHealth(maxHealth);
 		}
-		
+
 		
 		//This function is called when the behaviour becomes disabled or inactive.
 		private void OnDisable ()
@@ -54,7 +60,12 @@ namespace Completed
 		
 		
 		private void Update ()
+		//Limits the max hp.
 		{
+			if(food > maxHealth)
+			{
+				food = maxHealth;
+			}
 			//If it's not the player's turn, exit the function.
 			if(!GameManager.instance.playersTurn) return;
 			
@@ -130,12 +141,10 @@ namespace Completed
 		//AttemptMove takes a generic parameter T which for Player will be of the type Wall, it also takes integers for x and y direction to move in.
 		protected override void AttemptMove <T> (int xDir, int yDir)
 		{
-			//Every time player moves, subtract from food points total.
-			food--;
-			
 			//Update food text display to reflect current score.
-			foodText.text = "Food: " + food;
-			
+			foodText.text = "Health: " + food;
+			healthBar.SetHealth(currentHealth);
+
 			//Call the AttemptMove method of the base class, passing in the component T (in this case Wall) and x and y direction to move.
 			base.AttemptMove <T> (xDir, yDir);
 			
@@ -190,9 +199,11 @@ namespace Completed
 			{
 				//Add pointsPerFood to the players current food total.
 				food += pointsPerFood;
-				
+				currentHealth += pointsPerFood;
+
 				//Update foodText to represent current total and notify player that they gained points
 				foodText.text = "+" + pointsPerFood + " Health: " + food;
+				healthBar.SetHealth(currentHealth);
 				
 				//Call the RandomizeSfx function of SoundManager and pass in two eating sounds to choose between to play the eating sound effect.
 				SoundManager.instance.RandomizeSfx (eatSound1, eatSound2);
@@ -206,10 +217,10 @@ namespace Completed
 			{
 				//Add pointsPerSoda to players food points total
 				food += pointsPerSoda;
-				
+				currentHealth += pointsPerFood;
 				//Update foodText to represent current total and notify player that they gained points
 				foodText.text = "+" + pointsPerSoda + " Energy: " + food;
-				
+				healthBar.SetHealth(currentHealth);
 				//Call the RandomizeSfx function of SoundManager and pass in two drinking sounds to choose between to play the drinking sound effect.
 				SoundManager.instance.RandomizeSfx (drinkSound1, drinkSound2);
 				
@@ -237,10 +248,10 @@ namespace Completed
 			
 			//Subtract lost food points from the players total.
 			food -= loss;
-			
-			//Update the food display with the new total.
+			currentHealth -= loss;
+			//Update the health display with the new total.
 			foodText.text = "-"+ loss + " Health: " + food;
-			
+			healthBar.SetHealth(currentHealth);
 			//Check to see if game has ended.
 			CheckIfGameOver ();
 		}
